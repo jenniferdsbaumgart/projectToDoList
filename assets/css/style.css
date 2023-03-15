@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+  --primary-color: hotpink;
+  --primary-color-darker: rgb(188, 73, 131);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/Rect\ Light.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.3em;
+  line-height: 1.5em;
+
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: whitesmoke;
+  opacity: 0.9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #757575;
+}
+
+section h1 {
+  font-family: 'Righteous', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+section input {
+  width: 600px;
+  font-size: 1.6em;
+  line-height: 30px;
+  background-color: rgb(249, 221, 238);
+}
+
+section button {
+  background: var(--primary-color);
+  border: none;
+  padding: 10px;
+  color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #757575;
+}
+
+.apagar {
+  padding: 3px 7px;
+  border-radius: 50%;
+  font-weight: 800;
+}
+
+section button:hover {
+  background: var(--primary-color-darker);
+}
